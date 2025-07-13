@@ -14,8 +14,18 @@ console.log(typeof(num3));
 console.log('Number - Ponto Binario...:', num4);
 
 
+// exemplo 2: de number
+let num5:number = 3.14;
+let num6:number = 0o77;
+let num7:number = 0XFF;
+let num8:number = 0b1010;
 
-//Exemplos: bigInt
+console.log (num5);
+console.log (num6);
+console.log (num7);
+console.log (num8);
+
+//Exemplos 1: bigInt
 
 let big1: bigint = 9007199254740991n;
 let big2: bigint = 0b100000000000000000000000000000000000000000000000011n;
@@ -27,3 +37,16 @@ console.log('Bigint...: -', big1);
 console.log('Bigint...: - Binario', big2);
 console.log('Bigint...: - Hexadecimal', big3);
 console.log('Bigint...: - Octal', big4);
+
+
+// Exemplos 2: BIDTNT
+
+let big5: bigint = 0x1AFn;
+let big6: bigint = 0o755n;
+let big7: bigint = 0b101010n ;
+let big8: bigint = 0o4000000003n;
+
+console.log(big5);
+console.log(big6);
+console.log(big7);
+console.log(big8);
