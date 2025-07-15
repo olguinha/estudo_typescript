@@ -14,5 +14,16 @@ console.log(pessoa2);
 let frutas = ['Manga', 'Melancia', 'Feijão', 'Arroz', 'Pera'];
 console.log(...frutas);
 // -> EXEMPLO5 LISTA HETOGENEA DE TUPLA:
+let listafruntas2 = [5, true, ...frutas];
+console.log(listafruntas2);
 // -> EXEMPLO6 USO DE FUNÇÃO COM TUPLAS 
-// -> EXEMPLO7 LABELED  TUPLES COM SPREAD OPERATOR  NUMA FUNÇÃO
+function listarpessoas(nomes, idades) {
+    return [...nomes, ...idades];
+}
+let resultado = listarpessoas(['Olga', 'Maria'], [22, 70]);
+console.log(resultado);
+function criarpessoa(...nome) {
+    return [...nome];
+}
+console.log(criarpessoa('Olga', 'Oliveira'));
+console.log(criarpessoa('Olga', 'não tenho', 'Oliveira'));
