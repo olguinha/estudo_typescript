@@ -1,3 +1,6 @@
+//length é uma propriedade que mostra o tamanho de algo, geralmente de um array ou string.
+
+
 // Exemplo 1 com Uso de colchetes:
 
 let frutas: string[] = ['A', 'L','M', 'M','M'];
@@ -73,6 +76,7 @@ function funcaolinguagens(linguagens:string[]){
 
 funcaolinguagens(linguagemArray);
 
+// exemplo 2 de array com laço de interação
 
 let ligusns:string[] = new Array('javascript', 'python', 'php', 'c#');
 
@@ -82,4 +86,21 @@ function funcao(ling:string[]){
     }
 }
 
-funcao(ling);
+funcao(ligusns);
+
+
+// exemplo 3 de array com laço de interação
+
+// Esse laço for percorre todos os elementos do array pit, começando do índice 0 até o último (menor que pit.length).
+//A variável a serve como índice para acessar os elementos.
+
+let pilotos:string[] = new Array('LEWIS',  'CARLOS', 'CHALES', 'GEORGE');
+
+
+function funcaos(pit:string[]){
+    for(let a = 0; a < pit.length; a++){
+        console.log(pilotos[a]);
+    }
+}
+
+funcaos(pilotos);
