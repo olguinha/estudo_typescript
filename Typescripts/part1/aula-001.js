@@ -1,25 +1,18 @@
 console.log("Nothing us worth more than laughter.");
-
 // function paintPainting(painter, painting){
 //     return painter
 //     .prepare()
 //     .paint(painting, painter.ownMaterials);
 //     finish();
 // }
-
 // function finish() {
 //     throw new Error("Function not implemented.");
 // }
-
-const firstName = "Olga";
-const LastName = "Oliveira";
-const FullName = "Olga de Oliveira";
+var firstName = "Olga";
+var LastName = "Oliveira";
+var FullName = "Olga de Oliveira";
 console.log('hello', firstName + ' ' + LastName);
-
-
-const nameLength = firstName.length;
-
-
-function sayNames(fullName: any){
-    console.log('hello', `${fullName}`);
+var nameLength = firstName.length;
+function sayMyName(fullName) {
+    console.log('hello', "".concat(fullName));
 }
