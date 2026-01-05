@@ -23,3 +23,13 @@ const nameLength = firstName.length;
 function sayNames(fullName: any){
     console.log('hello', `${fullName}`);
 }
+let singer = "athea";
+
+let bestSong = Math.random() > 0.5 ? "Oh my goodness" : "I love showers" ;
+
+
+// let firstNames = "Maria";  erro mostra que esse objeto string não pode ter o método length como função. pois é tipo string e nãonumber
+// firstNames.length();
+
+let string = "wat";
+
