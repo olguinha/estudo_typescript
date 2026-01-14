@@ -87,3 +87,30 @@ let cars = {
 };
 
 //cars.middlenamen = "Brasília"; // aqui está dando erro, pois a variavel cars não tem a propriedade middlename declarada no objeto.
+
+
+/*=================================================================================================*/
+
+                                  /* Uninões e literais */
+
+let mathematician = Math.random() > 0.12 ? undefined: "Gauss"; // aqui a variavel mathematician pode ser do tipo UNDEFINED ou STRING.
+
+
+let thiger: string | null = null; // aqui a variavel thiger pode ser do tipo STRING ou NULL.
+
+if(Math.random() > 0.5){
+    thiger = "Shere Khan";
+}
+
+/*=================================================================================================*/
+
+
+let casos = Math.random() > 0.4 ? "Olga de Oliveira" : 84;
+
+casos.toString(); //ok;
+
+// casos.toUpperCase(); // não existe para para tipo number (por isso do erro)
+
+// casos.tofixed(); // não existe para tipo string (por isso do erro)
+
+//restringir o acesso as propriedades que não existem em todos os tipos união é uma medida de segurança
