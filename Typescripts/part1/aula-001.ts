@@ -114,3 +114,49 @@ casos.toString(); //ok;
 // casos.tofixed(); // não existe para tipo string (por isso do erro)
 
 //restringir o acesso as propriedades que não existem em todos os tipos união é uma medida de segurança
+
+
+/* ==========================================================================================================*/
+
+let animal : string | boolean | number | Float32Array| Int32Array ;
+
+animal = "olga";
+
+ animal.toUpperCase(); // ok é uma string
+
+// animal.tofixed();
+
+
+/*com a variavel luz declarada o typscript já entendi como string, pela forma que foi adicionado */
+
+let Luz: number | string = "Escuridão";
+
+Luz.toUpperCase();
+
+// Luz.tofixed(); // não funciona para string e number;
+
+let bichos = Math.random() > 0.5 
+? "cachorro" 
+: 34;
+
+let peixes = Math.random() > 0.5 
+? "manjubinha" 
+: 34;
+
+
+if ( typeof bichos === "string" ){
+    bichos.toUpperCase();
+}
+
+if (!( typeof peixes === "string" )){
+    peixes.toFixed();
+} else {
+    peixes.toUpperCase();
+}
+
+// instrução ternaria também funciona 
+
+typeof bichos === "string"
+? bichos.toUpperCase()
+: bichos.toFixed();
+
