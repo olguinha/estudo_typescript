@@ -53,3 +53,17 @@ var cars = {
     yearCar: 1980
 };
 //cars.middlenamen = "Brasília"; // aqui está dando erro, pois a variavel cars não tem a propriedade middlename declarada no objeto.
+
+
+
+
+
+
+
+
+/*============================================================================================================================ */
+
+
+
+
+
